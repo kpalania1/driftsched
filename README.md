@@ -3,6 +3,7 @@ This repository contains the complete implementation used in the DriftSched stud
 
 The framework combines workload classification, token-budget estimation, runtime feedback learning, tenant-aware scheduling, and GPU micro-batching to evaluate latency, fairness, queue behavior, and resource utilization under heterogeneous inference workloads.
 
+<img src="images/figure_qos_architecture.png" width="400">
 ------------------------------------------------------------------------
 
 # 1. Overview
