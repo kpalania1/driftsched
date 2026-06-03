@@ -2,6 +2,7 @@
 This repository contains the complete implementation used in the DriftSched study for evaluating adaptive QoS-aware scheduling strategies in multi-tenant LLM inference environments.
 
 The framework combines workload classification, token-budget estimation, runtime feedback learning, tenant-aware scheduling, and GPU micro-batching to evaluate latency, fairness, queue behavior, and resource utilization under heterogeneous inference workloads.
+[![arXiv](https://img.shields.io/badge/arXiv-2602.16858-b31b1b.svg)](https://arxiv.org/abs/2606.02982)
 
 <img src="images/figure_qos_architecture.PNG" width="600">
 ------------------------------------------------------------------------
