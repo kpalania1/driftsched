@@ -165,8 +165,34 @@ Software:
 - vLLM
 
 ------------------------------------------------------------------------
+# 8. Repository Structure
 
-# 8. Running the System
+Two implementations are provided:
+
+- `with-split/` – whitespace-based token estimation.
+- `with-tokenizer/` – tokenizer-aware token estimation.
+
+Each folder contains identical components:
+
+- `adaptive_token_estimator.py`
+- `aging_priority_scheduler_queue.py`
+- `api_gateway.py`
+- `gpu_inference_worker.py`
+- `priority_scheduler_queue.py`
+- `prompts_dataset.py`
+- `redis_fifo_queue.py`
+- `run_experiment.sh`
+- `run_worker.py`
+- `scheduler_factory.py`
+- `sjf_scheduler_queue.py`
+- `weighted_scheduler_queue.py`
+- `workload_generator.py`
+
+The two implementations differ only in the workload-estimation mechanism used. 
+
+------------------------------------------------------------------------
+
+# 9. Running the System
 
 Start Redis:
 
@@ -186,7 +212,7 @@ python workload_generator.py --scheduler priority --requests 3000 --concurrency 
 
 ------------------------------------------------------------------------
 
-# 9. Full Experimental Evaluation
+# 10. Full Experimental Evaluation
 
 Execute all schedulers:
 
@@ -205,7 +231,7 @@ with multiple experimental runs and telemetry collection.
 
 ------------------------------------------------------------------------
 
-# 10. Metrics Collected
+# 11. Metrics Collected
 
 Per-request metrics:
 
@@ -232,7 +258,7 @@ GPU telemetry:
 
 ------------------------------------------------------------------------
 
-# 11. Output Files
+# 12. Output Files
 
 Each run produces:
 
@@ -248,7 +274,7 @@ experiment_results_YYYYMMDD_HHMMSS/
 
 ------------------------------------------------------------------------
 
-# 12. Reproducibility
+# 13. Reproducibility
 
 To reproduce the paper:
 
