@@ -105,11 +105,11 @@ This allows the scheduler to adapt when actual output lengths differ from admiss
 
 Baseline configuration used in the paper:
 
-REQUESTS=3000
-CONCURRENCY=50
+REQUESTS=3000,
+CONCURRENCY=50,
 RUNS=3
 
-BATCH_SIZE=32
+BATCH_SIZE=32,
 BATCH_WAIT_SECONDS=0.01
 
 BIAS_MODE=on
