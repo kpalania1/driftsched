@@ -5,6 +5,8 @@ The framework combines workload classification, token-budget estimation, runtime
 
 [![arXiv](https://img.shields.io/badge/arXiv-2602.16858-b31b1b.svg)](https://arxiv.org/abs/2606.02982) [![arXiv cs.PF](https://img.shields.io/badge/arXiv-cs.PF-green)](https://arxiv.org/) [![arXiv cs.LG](https://img.shields.io/badge/arXiv-cs.LG-green)](https://arxiv.org/) [![arXiv cs.DC](https://img.shields.io/badge/arXiv-cs.DC-green)](https://arxiv.org/)
 
+[![Featured in awesome-papers-LMsys](https://img.shields.io/badge/Featured-awesome--papers--LMsys-blue)](https://github.com/zhixin612/awesome-papers-LMsys)
+
 <img src="images/figure_qos_architecture.PNG" width="600">
 ------------------------------------------------------------------------
 
